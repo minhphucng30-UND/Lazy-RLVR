@@ -1,0 +1,10 @@
+# Large dataset binaries (GitHub limit 100 MB; prefer HF hub / scratch storage)
+data/math/math_vllm.parquet
+data/math/math_vllm_advantages.parquet
+data/math/math_vllm_scores.parquet
+data/math/math_vllm_advantages_tokenized/*.arrow
+
+__pycache__/
+*.pyc
+wandb/
+models/
